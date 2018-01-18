@@ -1,0 +1,22 @@
+{
+    "name": "kittenphp/router",
+    "description": "Lightweight and easy to use router library",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["framework","router"],
+    "authors": [
+        {
+            "name": "kittenphp",
+            "email": "kittenphp@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/routing": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "kitten\\component\\router\\": "src/"
+        }
+    }
+}
